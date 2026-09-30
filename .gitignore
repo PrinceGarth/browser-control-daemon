@@ -1,2 +1,10 @@
-node_modules/
-dist/
+# Allowlist: ignore everything, then re-include only what belongs in the repo.
+*
+!.gitignore
+!LICENSE
+!README.md
+!package.json
+!package-lock.json
+!tsconfig.json
+!src/
+!src/**
